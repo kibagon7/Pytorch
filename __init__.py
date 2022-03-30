@@ -2,7 +2,11 @@
 # Apache License Version 2.0
 # https://www.apache.org/licenses/LICENSE-2.0.html
 
-README = "eval_loss(loader, device, net, criterion), fit(net, optimizer, criterion, num_epochs, train_loader, test_loader, device, history), evaluate_history(history), show_images_labels(loader, classes, net, device) "
+README = "
+eval_loss(loader, device, net, criterion), 
+fit(net, optimizer, criterion, num_epochs, train_loader, 
+test_loader, device, history), evaluate_history(history), 
+show_images_labels(loader, classes, net, device) "
 
 
 
