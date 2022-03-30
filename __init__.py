@@ -94,7 +94,7 @@ def fit(net, optimizer, criterion, num_epochs, train_loader, test_loader, device
         net.eval()
         count = 0
 
-        for inputs, labels in test_loader:
+        for inputs, labels in tqdm(test_loader):
             count += len(labels)
 
             inputs = inputs.to(device)
